@@ -1,5 +1,5 @@
 /*Personalização da Imagem do Topo*/
-.boxFormulario{
+#boxFormulario{
     display: inline-block;
     padding-top: 90px;
     padding-bottom: 40px;
@@ -8,7 +8,7 @@
     background-size: cover;
 }
 
-.formulario{
+#formulario{
     margin-left: 70%;
     margin-right: 20%;
     margin-top: 40px;
@@ -19,27 +19,27 @@
     padding: 20px;
 }
 
-.formulario .titulo1, .titulo2{
+#formulario #titulo1, #titulo2{
     font-size: 19px;
 }
 
-.formulario .titulo2{
+#formulario #titulo2{
     color: #954056;
     margin-top: 20px;
     margin-bottom: 30px;
 }
 
-.formulario input, textarea{
+#formulario input, textarea{
     width: 100%;
     margin-bottom: 10px;
     padding: 5px;
 }
 
-.formulario input{
+#formulario input{
     height: 40px;
 }
 
-.formulario .btnForm{
+#formulario #btnForm{
     background-color: #954056;
     color: white;
     font-size: 18px;
@@ -51,21 +51,21 @@
 
 /*Comandos media query*/
 @media (max-width: 1100px) {
-    .formulario{
+    #formulario{
         float: none;
         margin-left: 60%;
     }
 }
 
 @media (max-width: 800px) {
-    .formulario{
+    #formulario{
         float: none;
         margin-left: 50%;
     }
 }
 
 @media (max-width: 600px) {
-    .formulario{
+    #formulario{
         float: none;
         margin-left: 20px;
     }

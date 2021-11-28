@@ -1,40 +1,40 @@
-.boxInforma{
+#boxInforma{
     display: inline-flex;
     float: left;
 }
 
-.boxInforma .box1, .box2, .box3{
+#boxInforma #box1, #box2, #box3{
     text-align: center;
     padding: 60px 30px 60px 30px;
     color: white;
 }
 
-.boxInforma .box1, .box3{
+#boxInforma #box1, #box3{
     background-color: #2b2b2b;
 }
 
-.boxInforma .box2{
+#boxInforma #box2{
     background-color: #954056;
 }
 
-.boxInforma i{
+#boxInforma i{
     margin-bottom: 20px;
     font-size: 23px;
 }
 
-.boxInforma .titulo{
+#boxInforma #titulo{
     font-size: 18px;
     margin-bottom: 10px;
 }
 
-.boxInforma .texto{
+#boxInforma #texto{
     font-size: 14px;
     color: rgb(189, 189, 189);
 }
 
 /*Comandos media query*/
 @media (max-width: 800px){
-    .boxInforma{
+    #boxInforma{
         display: block;
         float: none;
     }
