@@ -1,0 +1,20 @@
+/*
+    Padrão de Cores
+    Preto = #2b2b2b
+    Vermelho = #954056
+    Vermelho2 = #652535
+*/
+
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none; /*Retira a marcação da UL*/
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    transition: 1s;
+}
+
+li{
+    cursor: pointer;
+}
